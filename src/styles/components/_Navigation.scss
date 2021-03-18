@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav .left {
+    display: flex;
+    align-items: center;
+}
+
+.nav .left .brand {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.nav .left .brand_title {
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav .left .brand .brand_img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav .left .links {
+    margin-left: 20px;
+}
+
+.nav .left .links * {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}

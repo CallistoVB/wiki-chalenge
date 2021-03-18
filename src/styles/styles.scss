@@ -1,0 +1,11 @@
+@import './settings';
+
+@import './components/Navigation';
+
+@import './pages/Home';
+
+body {
+    margin: 0;
+    font-family: $montserrat;
+    overflow-x: hidden;
+}

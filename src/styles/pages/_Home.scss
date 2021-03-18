@@ -1,0 +1,27 @@
+.home .header .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #1f1e1e;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.home .header .box .title {
+    width: 100%;
+    text-align: center;
+}
+
+.home .header .waves {
+    position: absolute;
+    transform: translateY(-99%);
+}
+
+.home .intro {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
